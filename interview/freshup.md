@@ -75,13 +75,9 @@ Django, Flask, Bottle, Twisted, Tornado, ...
 * Explain negative / backwards indexing in Python.
 * What is the difference between lists and tuples?
 Lists are mutable where as tuples are immutable.
-* a, b, c = 4, 5, 6; x = [a, b, c]; b = 0; x = ?
-x is [4, 5, 6]
-* a, b, c = 4, 5, 6; x = [a, b, c]; x[0] = 0; a = ?
-a is 4
 * Explain the difference between shallow copy vs deep copy
 Shallow copy makes copy of data structures at the top level and links to the non-top level objects. Only top level objects are duplicated. Deep copy duplicates all the objects.
-* When does a shallow copy change with out being modified?
+* When does a shallow copy change with out being modified directly?
 When any of the non top-level object changes, shallow copy is modified
 * What is the use of range() function?
 To iterate over an object, typically in a for loop.
